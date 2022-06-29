@@ -1,7 +1,7 @@
 ---
 title: Distant Supervision 이란?
 # author : Jeonghwan Lee
-img : /img/posts/guess.jpg
+background : /img/posts/guess.jpg
 date: 2021-09-01 17:36:20 +0200
 tags: [ML]
 category : ML

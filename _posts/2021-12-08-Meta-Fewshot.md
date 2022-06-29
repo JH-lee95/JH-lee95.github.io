@@ -1,6 +1,6 @@
 ---
 title: 메타러닝(Meta Learning)과 퓨샷러닝(Few-Shot Learning)
-img : /img/posts/no_need_data_anymore.png
+background : /img/posts/no_need_data_anymore.png
 date: 2021-12-08 10:25:20 +0200
 tags: [DEEP-LEARNING]
 category : DEEP-LEARNING
