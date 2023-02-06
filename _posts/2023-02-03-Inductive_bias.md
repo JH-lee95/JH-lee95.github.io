@@ -55,3 +55,4 @@ $$y=wx+b················(2)$$
 ## References
 
 1. [WikiPedia-Indutive bias](https://en.wikipedia.org/wiki/Inductive_bias)
+2. [The Inductive Bias of ML Models, and Why You Should Care About It](https://towardsdatascience.com/the-inductive-bias-of-ml-models-and-why-you-should-care-about-it-979fe02a1a56)
