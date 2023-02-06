@@ -1,12 +1,15 @@
 ---
 title: Inductive Bias란?
 # author : Jeonghwan Lee
-background : https://miro.medium.com/v2/resize:fit:786/format:webp/1*EAkmDOH9SQQTTPSn9hCF8Q.png
+background : 
 date: 2023-02-03 15:22 +0200
 tags: [ML]
 category : ML
 # last_modified_at: 2021-09-08T09:09
 ---
+![Indctive_bias](https://miro.medium.com/v2/resize:fit:786/format:webp/1*EAkmDOH9SQQTTPSn9hCF8Q.png)
+
+
 논문을 읽다보면, "inductive bias" 라는 용어를 종종 접하게 된다. "Bias"라는 단어는 문맥에 따라 부정적인 의미로 해석 될 수도 있는데, inductive bias는 주로 모델의 데이터셋에 대한 성능을 향상 시킬 수 있는 긍정적인 의미로 받아들여진다. 밑의 예시를 보자.      
 
 ![Inductive_bias_paper](https://github.com/JH-lee95/jh-lee95.github.io/blob/master/img/posts/inductive_bias/inductive_bias.png)
