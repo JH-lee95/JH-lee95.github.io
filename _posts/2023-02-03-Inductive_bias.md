@@ -41,7 +41,7 @@ $$y=wx+b················(2)$$
 
 그렇다면 어떤 모델들이 inductive bias가 약하거나 또는 강한지 대표적인 예시를 살펴보자.
 
-### Less Inductive Bias Model
+### Less Inductive Bias Models
 - MLP : MLP는 데이터에 대한 특별한 가정없이, 모든 뉴런들이 서로 독립적으로 작동하는 모델이다. 따라서 모든 데이터형태에 적용가능하지만, 특정 데이터를 처리하기 위해 inductive bias를 강하게 준 모델에 비해 성능은 떨어질 확률이 높다.
     
 - Transformer : Transformer 모델은 대표적인 inductive bias가 약한 모델이다. 이는 Attention 연산이 데이터들간의 관계성을 사전에 가정하지 않고, 모든 데이터들간의 곱을 통해 관계성을 직접 밝혀내기 때문이다.하지만 inductive bias가 약한 것이 단점인 것만은 아니다. 데이터셋에 overfitting 하지 않는다는 것은, 다양한 형태의 데이터셋에 robust 하다는 것을 의미하기 때문이다. 이러한 사실 때문에 Transformer 기반의 BERT나 GPT같은 범용 사전학습 모델이 만들어질 수 있었다. 물론 다량의 데이터가 필요하다. 이를 data-intensive라고 하며 inductive bias가 약한 모델들의 특징이다.
@@ -51,7 +51,7 @@ $$y=wx+b················(2)$$
 꼭 그렇지는 않다. Positional Encoding이 inductive bias의 역할을 한다. 예컨데, 언어의 경우 단어의 등장순서가 중요하다. 하지만 Transformer의 Self-Attention 연산의 특성상 단어의 순서를 고려할 수 없다. 이를 Positional Encoding을 통해 순서정보를 주입해서 해결한다. 즉 "언어는 단어들의 등장 순서가 중요해!" 라는 bias를 Positinal Encoding을 통해 주입하고 있다.
 
 
-### More Inductive Bias Model
+### More Inductive Bias Models
 - Linear Regression Model : 위에서 설명을 위해 1차 회귀분석 모델을 예로 들며 (2)식이 inductive bias가 더 강한 모델이라고 했다. 하지만 사실 Linear Regression 모델 자체가 inductive bias를 가지고 있다. 즉 종속변수 y는 독립변수들과 선형관계에 있다는 가정을 하고 있는 것이다.
 
 
